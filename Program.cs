@@ -4,6 +4,7 @@ class Program
 {
     static async Task Main(string[] args)
     {
+        // Alterar o diretório para o lugar onde o projeto foi feito na máquina.
         string filePath = @"C:\Users\Vini\Documents\Dev\Streams\example.txt";
 
         await WriteToFileStreamAsync(filePath);
